@@ -5,6 +5,7 @@ import './styles.scss';
 
 const Head = ({ title, description }) => (
   <NextHead>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     <title>{title}</title>
     {description ? <meta name="description" content={description} /> : null}
   </NextHead>

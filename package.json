@@ -8,6 +8,7 @@
     "build": "next build",
     "export": "next export",
     "start": "next start",
+    "deploy": "yarn build && yarn export && ./renameOut.sh",
     "lint": "eslint ."
   },
   "dependencies": {
