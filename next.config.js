@@ -2,8 +2,6 @@ const path = require('path');
 const withSass = require('@zeit/next-sass');
 const withImages = require('next-images');
 
-const isProd = (process.env.NODE_ENV || 'production') === 'production'
-
 module.exports = withImages(withSass({
   webpack(config) {
     const aliases = {
@@ -20,5 +18,4 @@ module.exports = withImages(withSass({
     importLoaders: 1,
     localIdentName: '[local]-[hash:base64:5]',
   },
-  assetPrefix: isProd ? '/personal-page' : '',
 }));
