@@ -1,14 +1,14 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["styles"],{
 
-/***/ "./components/About/styles.scss":
-/*!**************************************!*\
-  !*** ./components/About/styles.scss ***!
-  \**************************************/
+/***/ "./components/Body/styles.scss":
+/*!*************************************!*\
+  !*** ./components/Body/styles.scss ***!
+  \*************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"body":"body-3KE4Y","content":"content-1yo3h","name":"name-5c7Of","shape":"shape-3dDJQ","intro":"intro-6SKsj","downArrow":"downArrow-BD_AD"};;
+module.exports = {"body":"body-2c9JL","content":"content-3s1dT","mainContent":"mainContent-1F2PW","name":"name-1-Kb1","intro":"intro-1S66w"};;
     if (true) {
       var injectCss = function injectCss(prev, href) {
         var link = prev.cloneNode();
@@ -30,7 +30,7 @@ module.exports = {"body":"body-3KE4Y","content":"content-1yo3h","name":"name-5c7
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1580335305338");
+            injectCss(link, link.href.split("?")[0] + "?unix=1580340282858");
           });
       }
     }
@@ -67,7 +67,7 @@ module.exports = {"body":"body-3KE4Y","content":"content-1yo3h","name":"name-5c7
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1580334748958");
+            injectCss(link, link.href.split("?")[0] + "?unix=1580335759166");
           });
       }
     }
@@ -105,7 +105,7 @@ module.exports = {"header":"header-3H5Ff","logo":"logo-2tbxu","links":"links-1XR
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1580334749170");
+            injectCss(link, link.href.split("?")[0] + "?unix=1580339738555");
           });
       }
     }
