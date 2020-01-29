@@ -14,7 +14,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ~components/Header */ "./components/Header/index.js");
 /* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles.scss */ "./components/About/styles.scss");
 /* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/andreacasino/Documents/Projects/personal-page/components/About/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -22,66 +21,18 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 var About = function About() {
   return __jsx("div", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_2___default.a.body,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_2___default.a.body
   }, __jsx("div", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_2___default.a.content,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, __jsx(_components_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_2___default.a.content
+  }, __jsx(_components_Header__WEBPACK_IMPORTED_MODULE_1__["default"], null), __jsx("div", {
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_2___default.a.shape
   }), __jsx("div", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_2___default.a.shape,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }), __jsx("div", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_2___default.a.name,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, "Hi", __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }), "I'm Andrea"), __jsx("div", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_2___default.a.intro,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, "I'm a 25y/o developer based in London, UK.", __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }), "I like to solve problems and make stuff. I also like", __jsx("span", {
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_2___default.a.name
+  }, "Hi", __jsx("br", null), "I'm Andrea"), __jsx("div", {
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_2___default.a.intro
+  }, "I'm a 25y/o developer based in London, UK.", __jsx("br", null), "I like to solve problems and make stuff. I also like", __jsx("span", {
     role: "img",
-    "aria-label": "emoji",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
+    "aria-label": "emoji"
   }, " \uD83D\uDC39, \uD83C\uDF63 and \u2615."))));
 };
 
@@ -101,26 +52,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_About__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ~components/About */ "./components/About/index.js");
-var _jsxFileName = "/Users/andreacasino/Documents/Projects/personal-page/components/Body/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
 var Body = function Body() {
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, __jsx(_components_About__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }));
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, __jsx(_components_About__WEBPACK_IMPORTED_MODULE_1__["default"], null));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Body);
@@ -144,7 +82,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles.scss */ "./components/Head/styles.scss");
 /* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/andreacasino/Documents/Projects/personal-page/components/Head/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -154,26 +91,12 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 var Head = function Head(_ref) {
   var title = _ref.title,
       description = _ref.description;
-  return __jsx(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, __jsx("title", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, title), description ? __jsx("meta", {
+  return __jsx(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, null, __jsx("meta", {
+    name: "viewport",
+    content: "initial-scale=1.0, width=device-width"
+  }), __jsx("title", null, title), description ? __jsx("meta", {
     name: "description",
-    content: description,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
+    content: description
   }) : null);
 };
 
@@ -208,97 +131,41 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles.scss */ "./components/Header/styles.scss");
 /* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/andreacasino/Documents/Projects/personal-page/components/Header/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 var Header = function Header() {
   return __jsx("div", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_1___default.a.header,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    },
-    __self: this
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_1___default.a.header
   }, __jsx("div", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_1___default.a.logo,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_1___default.a.logo
   }, "ANDREA CASINO"), __jsx("ul", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_1___default.a.links,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_1___default.a.links
   }, __jsx("li", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_1___default.a.link,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_1___default.a.link
   }, __jsx("a", {
     href: "http://www.github.com/andrydood",
     rel: "noopener noreferrer",
-    target: "_blank",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
+    target: "_blank"
   }, "GitHub")), __jsx("li", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_1___default.a.link,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_1___default.a.link
   }, __jsx("a", {
     href: "https://www.linkedin.com/in/andrea-casino/",
     rel: "noopener noreferrer",
-    target: "_blank",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
+    target: "_blank"
   }, "LinkedIn")), __jsx("li", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_1___default.a.link,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_1___default.a.link
   }, __jsx("a", {
     href: "/cv.pdf",
     rel: "noopener noreferrer",
-    target: "_blank",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
+    target: "_blank"
   }, "CV")), __jsx("li", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_1___default.a.link,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_1___default.a.link
   }, __jsx("a", {
     href: "mailto:andrea.casino.2@gmail.com",
     rel: "noopener noreferrer",
-    target: "_blank",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
+    target: "_blank"
   }, "Contact"))));
 };
 
@@ -4779,40 +4646,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ~components/Head */ "./components/Head/index.js");
 /* harmony import */ var _components_Body__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ~components/Body */ "./components/Body/index.js");
-var _jsxFileName = "/Users/andreacasino/Documents/Projects/personal-page/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
 var Index = function Index() {
-  return __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, __jsx(_components_Head__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    title: "Andrea Casino",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }), __jsx(_components_Body__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }));
+  return __jsx("div", null, __jsx(_components_Head__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    title: "Andrea Casino"
+  }), __jsx(_components_Body__WEBPACK_IMPORTED_MODULE_2__["default"], null));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!**************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fandreacasino%2FDocuments%2FProjects%2Fpersonal-page%2Fpages%2Findex.js ***!
   \**************************************************************************************************************************************************/
@@ -4835,5 +4684,5 @@ module.exports = dll_fc878a605ca7bff75bfb;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js","styles"]]]);
+},[[1,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
