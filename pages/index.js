@@ -1,11 +1,12 @@
+import { Fragment } from 'react';
 import Head from '~components/Head';
 import Body from '~components/Body';
 
 const Index = () => (
-  <div>
+  <Fragment>
     <Head title="Andrea Casino" />
     <Body />
-  </div>
+  </Fragment>
 );
 
 export default Index;

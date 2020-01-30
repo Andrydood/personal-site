@@ -86,7 +86,7 @@ body, .body-2c9JL {
   width: 100vw;
   margin: 0 auto;
   height: 100vh;
-  overflow-x: hidden; }
+  overflow: hidden; }
   .body-2c9JL, .body-2c9JL a {
     color: #ccc3a2;
     text-decoration: none; }
