@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{IJoT:function(n,o,e){(window.__NEXT_P=window.__NEXT_P||[]).push(["/rebecca.wainwright",function(){return e("bolr")}])},bolr:function(n,o,e){"use strict";e.r(o);var t=e("q1tI"),i=e.n(t).a.createElement;o.default=function(){return i("div",null,i("h1",null,"I love becky!!"))}}},[["IJoT",0,2,1]]]);

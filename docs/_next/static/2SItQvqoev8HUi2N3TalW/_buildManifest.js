@@ -1,0 +1,1 @@
+self.__BUILD_MANIFEST = (function(a,b){return {"/":[a,b],"/index":[a,b]}}("static\u002Fcss\u002Fstyles.cb62af39.chunk.css","static\u002Fchunks\u002Fstyles.62da4d8713251fff48b4.js"));self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
